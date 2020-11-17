@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        do {
+            var input = parseInt(window.prompt("Xin Nhập vào Nhiệt Độ", ""), 10);
+
+        } while (isNaN(input));
+        if (input > 100) {
+            alert("Giảm nhiệt độ xuống");
+        } else if (input < 20) {
+            alert("Tăng nhiệt độ lên");
+        } else {
+            alert("Nhiệt độ vừa phải");
+        }
+    </script>
+</body>
+
+</html>
